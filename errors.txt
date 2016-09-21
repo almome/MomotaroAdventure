@@ -1,0 +1,13 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/chapters/prolog.rpy", line 56: expected statement.
+    momo = renpy.input("¿Como se llamará esta preciosa niña?")
+         ^
+
+File "game/chapters/prolog.rpy", line 57: expected statement.
+    momo = momo.strip()
+         ^
+
+Ren'Py Version: Ren'Py 6.99.11.1749

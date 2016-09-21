@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 32, in script call
+    call prologo
+  File "game/chapters/prolog.rpy", line 57, in script
+    anciana " A %(player_name). Es un nombre precioso..."
+ValueError: unsupported format character ' ' (0x20) at index 18
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 32, in script call
+    call prologo
+  File "game/chapters/prolog.rpy", line 57, in script
+    anciana " A %(player_name). Es un nombre precioso..."
+  File "C:\Users\alexa\Desktop\renpy-6.99.11-sdk\renpy\ast.py", line 603, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "C:\Users\alexa\Desktop\renpy-6.99.11-sdk\renpy\exports.py", line 1127, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character ' ' (0x20) at index 18
+
+Windows-8-6.2.9200
+Ren'Py 6.99.11.1749
+MomotaroAdventure 1.0
