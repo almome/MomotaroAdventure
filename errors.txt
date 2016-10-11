@@ -2,12 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/chapters/prolog.rpy", line 56: expected statement.
-    momo = renpy.input("¿Como se llamará esta preciosa niña?")
-         ^
+File "game/script.rpy", line 12: invalid syntax
+    global espada = False
+                   ^
+    
 
-File "game/chapters/prolog.rpy", line 57: expected statement.
-    momo = momo.strip()
-         ^
+File "game/script.rpy", line 13: invalid syntax
+    global Afecto_Yu = 0
+                      ^
+    
+
+File "game/script.rpy", line 14: invalid syntax
+    global Afecto_Ta = 0
+                      ^
+    
+
+File "game/script.rpy", line 15: invalid syntax
+    global Afecto_Hi = 0
+                      ^
+    
+
+File "game/script.rpy", line 16: invalid syntax
+    global Afecto_Fa = 0
+                      ^
+    
 
 Ren'Py Version: Ren'Py 6.99.11.1749

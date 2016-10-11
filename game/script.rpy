@@ -3,33 +3,32 @@
 ## Declare characters used by this game. The color argument colorizes the name
 ## of the character.
 
-define e = Character('Eileen')
+define momo = Character("[momo]")
+define anciana = Character('Anciana')
+define anciano = Character('Anciano')
+define yu = Character('Yû')
+define midori = Character('Midori')
 
 
 ## The game starts here.
 
 label start:
 
-    ## Show a background. This uses a placeholder by default, but you can add a
-    ## file (named either "bg room.png" or "bg room.jpg") to the images
-    ## directory to show it.
+    $global espada
+    $espada = False
+    $global Afecto_Yu
+    $Afecto_Yu = 0
+    $global Afecto_Ta
+    $Afecto_Ta = 0
+    $global Afecto_Hi
+    $Afecto_Hi = 0
+    $global Afecto_Fa
+    $Afecto_Fa = 0
 
-    #scene bg room
-
-    ## This shows a character sprite. A placeholder is used, but you can replace
-    ## it by adding a file named "eileen happy.png" to the images directory.
-
-    #show eileen happy
-
-    ## These display lines of dialogue.
-
-    #"Hello, world."
-
-    #e "You've created a new Ren'Py game."
-
-    #e "Once you add a story, pictures, and music, you can release it to the world!"
 
     call prologo from _call_prologo
+
+    call ch1 from _call_ch1
 
     ## This ends the game.
 

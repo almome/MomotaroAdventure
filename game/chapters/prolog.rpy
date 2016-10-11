@@ -1,8 +1,3 @@
-
-define anciana = Character('Anciana')
-define anciano = Character('Anciano')
-
-
 label prologo:
 
     scene bg aldea_feliz
@@ -59,7 +54,7 @@ label prologo:
     anciano "Debemos elegir un nombre… "
 
     ## MEJORA: Poner en una ventana emergente
-    define momo = Character("[momo]")
+
 
     $momo = renpy.input("¿Como se llamará esta preciosa niña?")
     $momo = momo.strip()
@@ -67,8 +62,6 @@ label prologo:
     anciana "Se llamará [momo]."
 
     #Opcional imagen de los dos ancianos con el bebé
-    "Bienvenida a la familia [momo]."
-
-
+    "Bienvenida a la familia, [momo]."
 
     return
