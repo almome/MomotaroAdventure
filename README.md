@@ -9,7 +9,7 @@ unos leales guerreros se unirán a ella en la aventura.
 
 Idea y desarrollo
 --------------------
-Ispirándonos en el popular cuento japonés de Momotaro, decidimos darle otro toque a la historia y a los pesonajes, convirtiendolo en una historia totalmente nueva pero manteniendo la esencia del cuento original.
+Inspirándonos en el popular cuento japonés de Momotaro, decidimos darle otro toque a la historia y a los personajes, convirtiéndolo en una historia totalmente nueva pero manteniendo la esencia del cuento original.
 El proyecto está siendo desarrollado por:
 
 + Programación: Alexandra Morón Méndez ( https://github.com/almome )
